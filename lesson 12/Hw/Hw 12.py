@@ -14,6 +14,8 @@ if response.ok:
     for film in character['films']:
         print(f"- {film}")
     print('\nShort film:\n')
+    for Shortfilm in character['shortFilms']:
+        print(f"- {Shortfilm}")
     print(f"TV shows:")
     for tvShow in character['tvShows']:
         print(f"- {tvShow}")
