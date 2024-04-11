@@ -7,13 +7,19 @@ url =f'https://api.disneyapi.dev/character?pageSize={pageSize}&page={page}'
 response = requests.get(url)
 
 if response.ok:
-    as_json = response.json()
-    print(f" {as_json['data']['name']}")
-    name = as_json['data']['name']
-    print(f"Films:\n - {name} {as_json['data']['films']}\n")
-    print('Short film:\n')
-    print(f"TV shows:\n - {name} {as_json['data']['films']}\n")
-    print(f"Video Games:\n - {name} {as_json['data']['videoGames']}")
+    character = response.json()['data']
+
+    print(f" {character['name']}")
+    print('Films:')
+    for film in character['films']:
+        print(f"- {film}")
+    print('\nShort film:\n')
+    print(f"TV shows:")
+    for tvShow in character['tvShows']:
+        print(f"- {tvShow}")
+    print(f"\nVideo Games:")
+    for videoGame in character['videoGames']:
+        print(f"- {videoGame}")
 else:
     print('Щось пішло не так...')
     print(f'{response.status_code=}')
