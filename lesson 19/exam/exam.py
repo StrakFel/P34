@@ -53,13 +53,14 @@ def display_menu(): # Функция дял показа меню
     print('2 - тренировка с минусом')
     print('3 - тренировка с умножением')
     print('4 - тренировка с делением')
-    print('5 - тренировка со всеми стандартными уравнениями')
-    print('6 - тренировка для мастеров')
-    print('7 - ALL IN!')
+    print('5 - тренировка с возвоидения в степень')
+    print('6 - тренировка с квадратным корнем')
+    print('7 - тренировка с факториалом')
+    print('8 - тренировка с субфакториалом')
     print('0 - Выйти из программы\n')
 
 
-def value_equation(user_choice):
+def value_equation(user_choice): # Функция для проверки ввода пользывателя
     if user_choice == '1':
         return create_equation_plus()
     elif user_choice == '2':
@@ -69,40 +70,75 @@ def value_equation(user_choice):
     elif user_choice == '4':
         return create_equation_division()
     elif user_choice == '5':
-        return create_equation_multi()
+        return create_equation_power()
     elif user_choice == '6':
-        return create_equation_masters()
+        return create_equation_square_root()
     elif user_choice == '7':
-        return create_equation_all_in()
+        return create_equation_factorial()
+    elif user_choice == '8':
+        return create_equation_subfactorial()
+    elif user_choice == '9':
+        return all_in()
 
 
 # Функции для мастеров
-def create_equation_factorial(n): # Функция факториала
+def factorial(n): # Функция факториала
     if n == 0:
         return 1
     else:
-        return n * create_equation_factorial(n - 1)
+        result = 1
+        for i in range(1, n + 1):
+            result *= i
+        return result
 
 
+def create_equation_factorial(): # Функция создания уравнения факториала
+    _, _, n, _, _, _ = generate_with_limit()
+    equation_print = f'{n}!'
+    equation_result = factorial(n)
+    return equation_print, equation_result
 
-def create_equation_subfactorial(n): # Функция субфакториала
+
+def subfactorial(n): # Функция субфакториала
     equation_result = 0
     for k in range(n + 1):
         equation_result += (-1) ** k / math.factorial(k)
     return round(math.factorial(n) * equation_result)
 
 
-def create_equation_power(x, y): # Функция воспроизведения в степень
-    power_result = 1
+def create_equation_subfactorial():  # Функция создания уравнения субфакториала
+    _, _, n, _, _, _ = generate_with_limit()
+    equation_print = f'!{n}'
+    equation_result = subfactorial(n)
+    return equation_print, equation_result
+
+
+def power(x, y): # Функция воспроизведения в степень
+    equation_result = 1
     for i in range(y):
-        power_result *= x
-    return power_result
+        equation_result *= x
+    return equation_result
 
 
-def create_equation_square_root(num): # Функция для воспроизведения числа в корень
-    square_roots = [math.isqrt(i) for i in range(1, 1001)]
-    value = random.choice(square_roots)
-    return value
+def create_equation_power(): # Функция создания уравнения воспроизведения в степень
+    _, _, _, x, y, _ = generate_with_limit()
+    equation_print = f'{x}^{y}'
+    equation_result = power(x, y)
+    return equation_print, equation_result
+
+
+def square_root(): # Функция для воспроизведения числа в корень
+    num = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256,
+                    289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841,
+                    900, 961, 1000]
+    return random.choice(num)
+
+
+def create_equation_square_root(): # Функция для воспроизведения числа в корень
+    num = square_root()
+    equation_print = f'√{num}'
+    equation_result = math.isqrt(num)
+    return equation_print, equation_result
 
 
 # Функции для создания уравнения
@@ -136,54 +172,16 @@ def create_equation_division(): # Функция для тренировки с 
             return equation_print, equation_result
 
 
-# Функции с несколькоми уравнениями
-def create_equation_multi(): # Функция для тренировки со всеми класическими арифметическими уравниями(+, -, *, /)
-    num_1, num_2, _, _, _, _ = generate_with_limit()
-    operations = random.choice(['+', '-', '*', '/'])
-    if operations == '+':
-        equation_print = f'{num_1} + {num_2}'
-        equation_result = num_1 + num_2
-    elif operations == '-':
-        equation_print = f'{num_1} - {num_2}'
-        equation_result = num_1 - num_2
-    elif operations == '*':
-        equation_print = f'{num_1} * {num_2}'
-        equation_result = num_1 * num_2
-    else:
-        equation_print = f'{num_1} / {num_2}'
-        equation_result = create_equation_division()
+def all_in(): # Функция со всеми уровнениями с этой програмы
+    choices = ['1', '2', '3', '4', '5', '6', '7', '8']
+    user_choice = random.choice(choices)
+    equation_print, equation_result = value_equation(user_choice)
     return equation_print, equation_result
 
-
-def create_equation_masters(): # Функция для тренировки со сложными арифметическими уровнениями
-    _, _, n, x, y, num = generate_with_limit()
-    operations = random.choice(['! ', ' !', '^', '√'])  #'! ' - factorial, ' !' - subfactorial, '^' - степень
-    if operations == '! ':
-        equation_print = f'!{n}'
-        equation_result = create_equation_factorial(n)
-    elif operations == ' !':
-        equation_print = f'{n}!'
-        equation_result = create_equation_subfactorial(n)
-    elif operations == '^':
-        equation_print = f'{x}^{y}!'
-        equation_result = create_equation_power(x, y)
-    elif operations == '√':
-        equation_print = f'√{num}'
-        equation_result = create_equation_square_root(num)
-    return equation_print, equation_result
-
-
-def create_equation_all_in(): # Функция для тренировки со всеми арифметическими уравнениями
-    num_1, num_2, _, _, _, _ = generate_with_limit()
-    operations = random.choice(['+', '-', '*', '/', '! ', ' !', '^', '√'])
-    if operations in ['+', '-', '*', '/']:
-        return create_equation_multi()
-    else:
-        return create_equation_masters()
 
 # Функция для проверки
 def check(user, equation_print, equation_result): # Функция для проверки правильности ответа пользывателя
-    equation_print, equation_result = equation_result, equation_print
+    equation_print, equation_result = equation_result, equation_print # Переворот переменных
     if user == equation_result:
         print('  Верно!')
         return True
@@ -204,7 +202,7 @@ while True: # Меню
     if user_choice == '0':
         print('\nУдачи!')
         exit()
-    elif user_choice in ['1', '2', '3', '4', '5', '6', '7']:
+    elif user_choice in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
         equation_print, equation_result = value_equation(user_choice)
     else:
         print('Вы ввели неверный выбор. Пожалуйста, выберите число от 1 до 7 или 0 для выхода.')
@@ -225,7 +223,7 @@ while True: # Меню
         except ValueError:
             print('Введено некорректное значение. Введите целое число, "quit" для завершения игры или "menu" для возращения в меню.')
             continue
-        equation_print, equation_result = equation_result, equation_print # Переворот переменных(если так не сделать код не будет правильно работать)
+        equation_print, equation_result = equation_result, equation_print
         if check(user, equation_print, equation_result):
             score += 1
             rounds += 1
