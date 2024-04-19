@@ -10,8 +10,7 @@ def create_random_numbers(): # Функция для задавания случ
     n = random.randint(1, 10)
     x = random.randint(1, 100)
     y = random.randint(1, 10)
-    num = random.randint(1, 1000)
-    return num_1, num_2, n, x, y, num
+    return num_1, num_2, n, x, y
 
 
 def check_numbers(num_1, num_2, x, y): # Функция для проверки пар чисел
@@ -21,9 +20,9 @@ def check_numbers(num_1, num_2, x, y): # Функция для проверки 
 
 
 def generate_with_limit(): # Функция для соединения функций create_random_numbers и check_numbers
-    num_1, num_2, n, x, y, num = create_random_numbers()
+    num_1, num_2, n, x, y = create_random_numbers()
     num_1, num_2, x, y = check_numbers(num_1, num_2, x, y)
-    return num_1, num_2, n, x, y, num
+    return num_1, num_2, n, x, y
 
 
 def quit_program(): # Функция для выхода из програмы
@@ -94,7 +93,7 @@ def factorial(n): # Функция факториала
 
 
 def create_equation_factorial(): # Функция создания уравнения факториала
-    _, _, n, _, _, _ = generate_with_limit()
+    _, _, n, _, _ = generate_with_limit()
     equation_print = f'{n}!'
     equation_result = factorial(n)
     return equation_print, equation_result
@@ -108,7 +107,7 @@ def subfactorial(n): # Функция субфакториала
 
 
 def create_equation_subfactorial():  # Функция создания уравнения субфакториала
-    _, _, n, _, _, _ = generate_with_limit()
+    _, _, n, _, _ = generate_with_limit()
     equation_print = f'!{n}'
     equation_result = subfactorial(n)
     return equation_print, equation_result
@@ -122,7 +121,7 @@ def power(x, y): # Функция воспроизведения в степен
 
 
 def create_equation_power(): # Функция создания уравнения воспроизведения в степень
-    _, _, _, x, y, _ = generate_with_limit()
+    _, _, _, x, y = generate_with_limit()
     equation_print = f'{x}^{y}'
     equation_result = power(x, y)
     return equation_print, equation_result
@@ -144,21 +143,21 @@ def create_equation_square_root(): # Функция для воспроизве�
 
 # Функции для создания уравнения
 def create_equation_plus(): # Функция для тренировки с плюсом
-    num_1, num_2, _, _, _, _ = generate_with_limit()
+    num_1, num_2, _, _, _ = generate_with_limit()
     equation_print = f'{num_1} + {num_2}'
     equation_result = num_1 + num_2
     return equation_print, equation_result
 
 
 def create_equation_minus(): # Функция для тренировки с минусом
-    num_1, num_2, _, _, _, _ = generate_with_limit()
+    num_1, num_2, _, _, _ = generate_with_limit()
     equation_print = f'{num_1} - {num_2}'
     equation_result = num_1 - num_2
     return equation_print, equation_result
 
 
 def create_equation_multiplication(): # Функция для тренировки с умножением
-    num_1, num_2, _, _, _, _ = generate_with_limit()
+    num_1, num_2, _, _, _ = generate_with_limit()
     equation_print = f'{num_1} * {num_2}'
     equation_result = num_1 * num_2
     return equation_print, equation_result
@@ -166,7 +165,7 @@ def create_equation_multiplication(): # Функция для тренировк
 
 def create_equation_division(): # Функция для тренировки с вычитанием
     while True:
-        num_1, num_2, _, _, _, _ = generate_with_limit()
+        num_1, num_2, _, _, _ = generate_with_limit()
         if num_1 % num_2 == 0:
             equation_print = f'{num_1} / {num_2}'
             equation_result = int(num_1 / num_2)
