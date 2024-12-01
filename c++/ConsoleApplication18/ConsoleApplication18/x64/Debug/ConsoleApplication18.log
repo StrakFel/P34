@@ -1,0 +1,3 @@
+﻿  ConsoleApplication18.cpp
+C:\Users\strak\source\repos\ConsoleApplication18\ConsoleApplication18\ConsoleApplication18.cpp(13,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  ConsoleApplication18.vcxproj -> C:\Users\strak\source\repos\ConsoleApplication18\x64\Debug\ConsoleApplication18.exe
