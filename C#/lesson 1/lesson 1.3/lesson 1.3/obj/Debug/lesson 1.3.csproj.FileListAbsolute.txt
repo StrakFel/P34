@@ -1,0 +1,7 @@
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\bin\Debug\lesson 1.3.exe
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\bin\Debug\lesson 1.3.exe.config
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\obj\Debug\lesson 1.3.csproj.AssemblyReference.cache
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\obj\Debug\lesson 1.3.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\obj\Debug\lesson 1.3.exe
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\obj\Debug\lesson 1.3.pdb
+C:\Users\strak\source\repos\C#\lesson 1\lesson 1.3\lesson 1.3\bin\Debug\lesson 1.3.pdb
