@@ -1,0 +1,7 @@
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\bin\Debug\Hw 6.1.exe.config
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\bin\Debug\Hw 6.1.exe
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\bin\Debug\Hw 6.1.pdb
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\obj\Debug\Hw 6.1.csproj.AssemblyReference.cache
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\obj\Debug\Hw 6.1.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\obj\Debug\Hw 6.1.exe
+C:\Users\strak\source\repos\C#\lesson 6\Hw\Hw 6.1\Hw 6.1\obj\Debug\Hw 6.1.pdb
