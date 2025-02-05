@@ -1,0 +1,2 @@
+C:\Users\strak\source\repos\C#\lesson 7\lesson 7.2\lesson 7.2\obj\Debug\lesson 7.2.csproj.AssemblyReference.cache
+C:\Users\strak\source\repos\C#\lesson 7\lesson 7.2\lesson 7.2\obj\Debug\lesson 7.2.csproj.CoreCompileInputs.cache
