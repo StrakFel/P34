@@ -1,0 +1,7 @@
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\bin\Debug\lesson 9.2.exe.config
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\bin\Debug\lesson 9.2.exe
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\bin\Debug\lesson 9.2.pdb
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\obj\Debug\lesson 9.2.csproj.AssemblyReference.cache
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\obj\Debug\lesson 9.2.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\obj\Debug\lesson 9.2.exe
+C:\Users\strak\source\repos\C#\lesson 9\lesson 9.2\lesson 9.2\obj\Debug\lesson 9.2.pdb
