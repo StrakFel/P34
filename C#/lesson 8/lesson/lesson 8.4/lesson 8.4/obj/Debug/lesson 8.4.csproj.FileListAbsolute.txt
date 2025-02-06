@@ -1,0 +1,7 @@
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\bin\Debug\lesson 8.4.exe.config
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\bin\Debug\lesson 8.4.exe
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\bin\Debug\lesson 8.4.pdb
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\obj\Debug\lesson 8.4.csproj.AssemblyReference.cache
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\obj\Debug\lesson 8.4.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\obj\Debug\lesson 8.4.exe
+C:\Users\strak\source\repos\C#\lesson 8\lesson\lesson 8.4\lesson 8.4\obj\Debug\lesson 8.4.pdb
