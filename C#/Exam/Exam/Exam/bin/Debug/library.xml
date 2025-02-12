@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Books>
+    <Book>
+      <Id>1</Id>
+      <Title>Harry Potter</Title>
+      <Author>J.K.Rouling</Author>
+      <Year>0</Year>
+      <Is_Available>true</Is_Available>
+      <IsAvailable>true</IsAvailable>
+    </Book>
+    <Book>
+      <Id>2</Id>
+      <Title>фбц</Title>
+      <Author>марина</Author>
+      <Year>1999</Year>
+      <Genre>фантастика</Genre>
+      <Is_Available>true</Is_Available>
+      <IsAvailable>true</IsAvailable>
+    </Book>
+  </Books>
+  <Users>
+    <User>
+      <Id>1</Id>
+      <BorrowedBooks>
+        <int>1</int>
+      </BorrowedBooks>
+    </User>
+  </Users>
+</Library>
