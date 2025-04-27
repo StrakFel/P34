@@ -1,0 +1,14 @@
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\bin\Debug\net8.0\TcpClient.exe
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\bin\Debug\net8.0\TcpClient.deps.json
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\bin\Debug\net8.0\TcpClient.runtimeconfig.json
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\bin\Debug\net8.0\TcpClient.dll
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\bin\Debug\net8.0\TcpClient.pdb
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.AssemblyInfoInputs.cache
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.AssemblyInfo.cs
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.dll
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\refint\TcpClient.dll
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.pdb
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\TcpClient.genruntimeconfig.cache
+C:\Users\strak\source\repos\TcpChatApp\TcpClient\obj\Debug\net8.0\ref\TcpClient.dll
