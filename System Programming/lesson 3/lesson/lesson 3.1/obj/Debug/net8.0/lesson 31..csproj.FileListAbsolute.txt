@@ -1,0 +1,14 @@
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\bin\Debug\net8.0\lesson 31..exe
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\bin\Debug\net8.0\lesson 31..deps.json
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\bin\Debug\net8.0\lesson 31..runtimeconfig.json
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\bin\Debug\net8.0\lesson 31..dll
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\bin\Debug\net8.0\lesson 31..pdb
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..AssemblyInfoInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..AssemblyInfo.cs
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..dll
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\refint\lesson 31..dll
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..pdb
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\lesson 31..genruntimeconfig.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\lesson\lesson 31\obj\Debug\net8.0\ref\lesson 31..dll
