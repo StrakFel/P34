@@ -1,0 +1,14 @@
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\bin\Debug\net8.0\Hw 3.exe
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\bin\Debug\net8.0\Hw 3.deps.json
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\bin\Debug\net8.0\Hw 3.runtimeconfig.json
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\bin\Debug\net8.0\Hw 3.dll
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\bin\Debug\net8.0\Hw 3.pdb
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.AssemblyInfoInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.AssemblyInfo.cs
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.dll
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\refint\Hw 3.dll
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.pdb
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\Hw 3.genruntimeconfig.cache
+C:\Users\strak\source\repos\System Programming\lesson 3\Hw\Hw 3\obj\Debug\net8.0\ref\Hw 3.dll
