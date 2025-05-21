@@ -1,0 +1,14 @@
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\bin\Debug\net8.0\lesson 7.1.exe
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\bin\Debug\net8.0\lesson 7.1.deps.json
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\bin\Debug\net8.0\lesson 7.1.runtimeconfig.json
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\bin\Debug\net8.0\lesson 7.1.dll
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\bin\Debug\net8.0\lesson 7.1.pdb
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.AssemblyInfoInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.AssemblyInfo.cs
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.csproj.CoreCompileInputs.cache
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.dll
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\refint\lesson 7.1.dll
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.pdb
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\lesson 7.1.genruntimeconfig.cache
+C:\Users\strak\source\repos\System Programming\lesson 7\lesson 7.1\obj\Debug\net8.0\ref\lesson 7.1.dll
